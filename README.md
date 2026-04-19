@@ -59,6 +59,18 @@ RRR   : 1 : 2.1   ·  EV : +0.41%
 
 ---
 
+## Results Preview
+
+The training pipeline runs a threshold optimization sweep on the backtest holdout. For each confidence threshold the system records total trades, win rate, profit factor, and a combined score — then selects the plateau point with the best profit factor / drawdown trade-off.
+
+![Confidence Threshold Optimization — BTCUSDT 15m](docs/images/threshold_optimization.png)
+
+The efficient frontier chart visualises how the optimal threshold compares to all alternatives — balancing drawdown (X axis) against profit factor (Y axis). The best point is marked with a red star.
+
+![Efficient Frontier — AVAXUSDT 30m](docs/images/efficient_frontier.png)
+
+---
+
 ## Quick Start
 
 ### 1. Install dependencies
