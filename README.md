@@ -2,9 +2,10 @@
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python)
 ![XGBoost](https://img.shields.io/badge/XGBoost-2.x-orange?style=flat-square)
+![ML](https://img.shields.io/badge/Machine%20Learning-Gradient%20Boosting-purple?style=flat-square)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
-> Trains XGBoost classifiers to predict directional price movement (LONG / SHORT / HOLD) on financial time-series data, with dynamic risk controls and real-time Telegram alerts.
+> Applies machine learning (XGBoost gradient boosting) to predict directional price movement (LONG / SHORT / HOLD) on financial time-series data, with dynamic risk controls and real-time Telegram alerts.
 
 An end-to-end XGBoost-based trading signal system for spot and derivatives markets. Trains multi-class direction classifiers (LONG / SHORT / HOLD), runs live predictions on multiple assets in parallel, and aggregates signals with risk metrics — all connected to Telegram for real-time alerts.
 
