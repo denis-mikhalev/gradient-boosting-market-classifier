@@ -204,7 +204,7 @@ class Config:
 
 def parse_arguments():
     """Парсинг аргументов командной строки"""
-    parser = argparse.ArgumentParser(description='Train cryptocurrency trading model')
+    parser = argparse.ArgumentParser(description='Train market direction classifier')
     parser.add_argument('--symbol', type=str, default='BTC/USDT', 
                        help='Trading symbol (e.g., BTC/USDT, ETH/USDT)')
     parser.add_argument('--timeframe', type=str, default='30m',

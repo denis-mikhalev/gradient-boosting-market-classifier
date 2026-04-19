@@ -7,7 +7,7 @@ pandas>=2.0.0
 # Technical analysis
 ta>=0.11.0
 
-# Crypto exchange / market data
+# Exchange connectivity / market data
 ccxt>=4.0.0
 
 # Notifications

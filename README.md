@@ -1,6 +1,6 @@
 # Gradient Boosting Market Classifier
 
-An end-to-end XGBoost-based trading signal system for cryptocurrency markets. Trains multi-class direction classifiers (LONG / SHORT / HOLD), runs live predictions on multiple assets in parallel, and aggregates signals with risk metrics — all connected to Telegram for real-time alerts.
+An end-to-end XGBoost-based trading signal system for spot and derivatives markets. Trains multi-class direction classifiers (LONG / SHORT / HOLD), runs live predictions on multiple assets in parallel, and aggregates signals with risk metrics — all connected to Telegram for real-time alerts.
 
 ---
 

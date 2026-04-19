@@ -49,7 +49,7 @@ class WatchlistMetadata:
     total_inactive_coins: int = 0
     last_optimization_date: str = ""
     created_date: str = ""
-    format_description: str = "JSON format for CryptoAI watchlist with optimization tracking"
+    format_description: str = "JSON format for market classifier watchlist with optimization tracking"
     
     def __post_init__(self):
         if not self.last_updated:
@@ -438,7 +438,7 @@ class WatchlistJSONManager:
             with open(output_path, 'w', encoding='utf-8') as f:
                 # Заголовок
                 metadata = data["metadata"]
-                f.write(f"# CryptoAI Watchlist (экспорт из JSON)\n")
+                f.write(f"# Market Classifier Watchlist (exported from JSON)\n")
                 f.write(f"# Последнее обновление: {metadata.get('last_updated', 'N/A')}\n")
                 f.write(f"# Версия: {metadata.get('version', '1.0')}\n")
                 f.write(f"# Последний анализ: {metadata.get('last_analysis_file', 'N/A')}\n")
