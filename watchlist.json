@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2025-10-31T16:35:55.600928",
+    "total_active_coins": 1,
+    "total_inactive_coins": 0,
+    "format_description": "JSON format for watchlist with optimization tracking"
+  },
+  "coins": {
+    "BTCUSDT": {
+      "symbol": "BTCUSDT",
+      "period": 1500,
+      "best_model_file": "xgb_BTCUSDT_15m_1500d_bt120d_20251031_122314.json",
+      "active": true,
+      "comment": "Example entry",
+      "last_updated": "2025-10-31T16:35:55.600833",
+      "optimization_history": [
+        {
+          "date": "2025-10-31T16:35:55.600833",
+          "old_period": 1400,
+          "new_period": 1500,
+          "comment": "Example history entry",
+          "metrics": {
+            "profit_factor": 2.3,
+            "win_rate": 65.0,
+            "trades": 36,
+            "threshold": 0.62,
+            "model_file": "xgb_BTCUSDT_15m_1500d_bt120d_20251031_122314.json"
+          }
+        }
+      ],
+      "models": [
+        {
+          "period": 1500,
+          "model_file": "xgb_BTCUSDT_15m_1500d_bt120d_20251031_122314.json",
+          "threshold": 0.62,
+          "profit_factor": 2.3,
+          "win_rate": 65.0,
+          "trades": 36,
+          "metric_value": 2.3
+        }
+      ]
+    }
+  }
+}
